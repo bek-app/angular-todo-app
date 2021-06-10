@@ -1,0 +1,25 @@
+.form{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 5px;
+    height: 30px;
+    input{
+        flex-basis: 80%;
+        outline: none;
+        border: 1px solid #ccc;
+        padding: 0 0.5rem;
+        height: 100%;
+        border-radius: 5px;
+        margin-right: 2px;
+    }
+    button{
+        flex-basis: 20%;
+        border-radius: 5px;
+        outline: none;
+        height: 100%;
+        transition: .3s all;
+        cursor: pointer;
+        $color: #eee;
+        background-color: $color;
+    }
+}

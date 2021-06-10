@@ -29,4 +29,7 @@ export class TodosService {
       return t.id !== id;
     });
   }
+  addTodo(todo: Todo) {
+    this.todos.push(todo);
+  }
 }

@@ -1,17 +1,28 @@
 .container {
-  max-width: 600px;
-  width: 100%;
-  margin: 0 auto;
-  border: 1px dashed #a0a0a0;
-  padding: 15px;
-  h1 {
-    text-align: center;
+  .filter {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 1rem;
+    input {
+      margin: 5px;
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+      outline: none;
+      border: 1px solid #ccc;
+      padding: 0 .5rem;
+      flex-basis: fill;
+    }
   }
   ul {
     li {
       padding: 8px;
       display: flex;
       justify-content: space-between;
+      border: 1px solid #ccc;
+      margin: 5px;
       span {
         margin-right: 10px;
       }
